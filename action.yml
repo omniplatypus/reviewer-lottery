@@ -1,6 +1,6 @@
-name: 'Reviewer lottery'
-description: 'Automatically assign reviewers to Pull Requests'
-author: 'Unai Esteibar'
+name: 'Reviewer lottery - with labels'
+description: 'Automatically assign reviewers to Pull Requests. This is an extension of Reviewer lottery by Unai Esteibar with an added feature of triggering groups by label matching.'
+author: 'Unai Esteibar and Gabriel Melo'
 branding:
   icon: 'eye'
   color: 'orange'
