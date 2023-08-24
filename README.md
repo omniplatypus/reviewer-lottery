@@ -20,6 +20,13 @@ groups:
     usernames:
       - some_user
       - someoneelse
+
+- name: mobile
+    reviewers: 2
+    match_label: Mobile # group will only be selected if the PR contains a label with this text
+    usernames:
+      - some_mobile_user
+      - someoneelse
 ```
 
 About `reviewers` and `internal_reviewers`: they can both be set, or only one of them, with the following behavior:
