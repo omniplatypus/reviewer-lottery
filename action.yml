@@ -1,6 +1,6 @@
 name: 'Reviewer lottery'
 description: 'Automatically assign reviewers to Pull Requests'
-author: 'Unai Esteibar'
+author: 'Unai Esteibar and Gabriel Melo'
 branding:
   icon: 'eye'
   color: 'orange'
@@ -8,6 +8,9 @@ inputs:
   repo-token:
     description: "Github token secret"
     required: true
+  base-url:
+    description: "Base url for your repository's API"
+    default: 'https://api.github.com'
   config:
     description: 'Path to config file'
     default: '.github/reviewer-lottery.yml'
