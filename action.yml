@@ -1,3 +1,4 @@
+
 name: 'Reviewer lottery - with labels'
 description: 'Automatically assign reviewers to Pull Requests. Extension of Reviewer lottery with added feature: groups by label matching.'
 author: 'Unai Esteibar and Gabriel Melo'
@@ -8,6 +9,9 @@ inputs:
   repo-token:
     description: "Github token secret"
     required: true
+  base-url:
+    description: "Base url for your repository's API"
+    default: 'https://api.github.com'
   config:
     description: 'Path to config file'
     default: '.github/reviewer-lottery.yml'
